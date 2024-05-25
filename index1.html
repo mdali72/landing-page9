@@ -1,0 +1,98 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+   
+</head>
+<body>
+<body >
+
+<section id="contact" >
+	<div class="container">
+		<h2>DOCTOR APPOINTMENT FORM</h2>
+		<div class="row">
+			<div class="col-md-12">
+				<form id="form">
+					<div class="contact1">	 
+						<label>Name *</label><br>
+						<input type="text" name="text" placeholder="Name" id="name" required=""  ><br><br>
+						<label>Email *</label><br>
+						<input type="email" name="email" placeholder="Email" id="email" required=""  ><br><br>
+						<label>Phone Number *</label><br>
+						<input type="number" name="number" placeholder="Phone Number" min="0" max="10" id="number" required=""  ><br><br>
+						<label>Best Time To Call You*</label><br>
+						<input type="radio" name="time" id="radio">Morning<br>
+						<input type="radio" name="time" id="radio2">Afternoon<br>
+						<input type="radio" name="time" id="radio3">Evening<br>
+
+					</div>
+					<div class="contact1-1">
+							<label>Address *</label><br>
+							<input type="text" name="text" placeholder="Address" id="address" required=""  ><br><br>
+							<input type="text" name="text" placeholder="Line 2" id="address"><br><br>
+							<input type="text" name="text" placeholder="City" id="city" required=""  ><br><br>
+							<input type="number" name="number" placeholder="Pin Code" min="0" max="6" id="code" required=""  ><br><br>
+							<label>I Would Like To (Choose One)*</label><br>
+						<input type="radio" name="p" id="radio1">A New Patient Appointment<br>
+						<input type="radio" name="p" id="radio1">A Routine Checkup<br>
+						<input type="radio" name="p" id="radio1">A Comprehensive Health Exam<br><br>
+						<button id="btninsert"  type="submit" class="btn btn-primary" onclick="submitform()">Submit</button>
+						 
+					</div>
+				</form>
+
+			</div>	 
+		</div>
+	</div>
+</section>
+<section id="table" style="display: none;">
+	<div class="container" >
+		<div class="row" >
+			<div class="col-12">
+				<span   onclick="close1()"  class="close" title="Close Modal">&times;</span>
+				<table border="1"   >
+					<thead>
+						<tr>
+							<th>Patient Name</th>
+						</tr>
+						<tr>
+							<th>Email</th>
+						</tr>
+						<tr>
+							<th>Number</th>
+						</tr>
+						<tr>
+							<th>Address</th>
+						</tr>
+						<tr>
+							<th>City</th>
+						</tr>
+						<tr>
+							<th>Pin Code</th>
+						</tr>
+						 
+						 
+					</thead>
+					<tbody id="tb"></tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<div id="editor"></div>
+	
+</section>
+	
+
+
+
+<script type="text/javascript" src="javascript/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

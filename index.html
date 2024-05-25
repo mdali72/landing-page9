@@ -1,0 +1,441 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+   
+</head>
+<body>
+<header>
+	<nav class="navbar navbar-expand-md bg-light ">
+		<div class="container">
+	   <a class="navbar-brand" href="#">
+    	  <img src="images/img1.png" alt="Logo" style="width:100%;">
+  		</a>
+	  <button class="navbar-toggler navbar-dark bg-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+	    <ul class="navbar-nav ml-auto">
+	      <li class="nav-item mr-4">
+	        <a class="nav-link" href="#banner">Home</a>
+	      </li>
+	      <li class="nav-item mr-4">
+	        <a class="nav-link" href="#team">About</a>
+	      </li>
+	      <li class="nav-item mr-4">
+	        <a class="nav-link" href="#service">Services</a>
+	      </li>
+	      <li class="nav-item mr-4">
+	        <a class="nav-link" href="#blog">Blog</a>
+	      </li>
+	      <li class="nav-item mr-4">
+	        <a class="nav-link" href="#contact">Contact</a>
+	      </li>  
+		  <button type="button" class="btn btn-light ml-4" onclick="signin()">Sign in</button>  
+	      <button type="button" class="btn btn-dark ml-4" onclick="signup()">Sign Up</button>
+	    </ul>
+	  </div>  
+	</div>
+	</nav>
+	<div id="banner">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="banner1">
+						<button type="button" id="btn1" class="btn btn-link">Welcome To Madgicx</button>
+						<h1>A New Discovery<br> in Health</h1>
+						<p>We are a team of dedicated healthcare professionals.
+				   		   Commetted to providing you with the highest quality
+						   medical care.</p>
+				   	    <a  onclick="enter()" type="button" id="btn2" class="btn btn-primary"><i class="fa fa-phone" aria-hidden="true"></i> Book an Appointment</a>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="banner2">
+						<img src="images/img2.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<section id="service">
+	<div class="container">
+		<div class="service2">
+			<i>Service</i>
+			<h2>How we provide the<br> fastest treatment</h2>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="service1">
+					<span> <i class="fa fa-heartbeat" aria-hidden="true"></i></span>
+					<h4>Cardiology Service</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					<p id="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					<button type="button" id="btnon" onclick="onpara()" class="btn btn-link">Learn More</button>
+					<button type="button" id="btnback" onclick="back()" class="btn btn-link">Back</button>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="service1">
+					<span><i class="fa fa-snowflake-o" aria-hidden="true"></i></span>
+					<h4>Internal Medicine</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					<p id="para1">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					<button type="button" id="btnon1" onclick="onpara1()" class="btn btn-link">Learn More</button>
+					<button type="button" id="btnback1" onclick="back1()" class="btn btn-link">Back</button>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="service1">
+					<span><i class="fa fa-stethoscope" aria-hidden="true"></i></span>
+					<h4>Urology Service</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					<p id="para2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					<button type="button" id="btnon2" onclick="onpara2()" class="btn btn-link">Learn More</button>
+					<button type="button" id="btnback2" onclick="back2()" class="btn btn-link">Back</button>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="service1">
+					<span><i class="fa fa-eyedropper" aria-hidden="true"></i></span>
+					<h4>Oncology Service</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					<p id="para3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					<button type="button" id="btnon3" onclick="onpara3()" class="btn btn-link">Learn More</button>
+					<button type="button" id="btnback3" onclick="back3()" class="btn btn-link">Back</button>
+				</div>
+			</div>	
+		</div>
+	</div>
+</section>
+
+<section id="feature">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="feature1">
+					<img src="images/img3.png">
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="feature2">
+					<i>OUR FEATURES</i>
+					<h2>Advancing Healthcare with Technology</h2>
+					<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+					<ol>
+						<li>Modern Facilities</li>
+						<li>Diagnose Conditions With Precision</li>
+						<li>Innovative Therapies</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="feature2">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="feature3">
+					<i>OUR FEATURES</i>
+					<h2>We Making Quality Healthcare Accessible</h2>
+					<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+					<p id="para4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+						<button type="button" id="btnon4" onclick="onpara4()" class="btn btn-primary">Learn More</button>
+					<button type="button" id="btnback4" onclick="back4()" class="btn btn-primary">Back</button>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="feature4">
+					<img src="images/img4.png">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="team">
+	<div class="container">
+		<div class="team1">
+				<i>OUR TEAM</i>
+				<h2>Skilled Professionals,<br> Caring Hearts</h2>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="team2" >
+					<img src="images/img5.png">
+					<h4>Dr.Steve Smith</h4>
+					<h6>Cardiologist  </h6>
+					<h5>(4.8)</h5>
+				</div>			 
+			</div>
+			<div class="col-md-3">
+				<div class="team2" >
+					<img src="images/img6.png">
+					<h4>Dr.Sarah Smith</h4>
+					<h6>Gynecologist</h6>
+					<h5>(4.7)</h5>
+				</div>			 
+			</div>
+			<div class="col-md-3">
+				<div class="team2" >
+					<img src="images/img7.png">
+					<h4>Dr.Sam Curran</h4>
+					<h6>Dentist</h6>
+					<h5>(4.6)</h5>
+				</div>			 
+			</div>
+			<div class="col-md-3">
+				<div class="team2" >
+					<img src="images/img8.png">
+					<h4>Dr.Smriti Mandhana  </h4>
+					<h6>Eye -Specialist</h6>
+					<h5>(4.9)</h5>
+				</div>			 
+			</div>
+		</div>
+		<div class="team">
+				<button type="button" id="btnon5" onclick="onpara5()" class="btn btn-primary">View All Doctors</button>
+		</div>
+	</div>
+</section>
+<section id="team1">
+	<div class="container">
+		<div class="row"> 
+			<div class="col-md-3">
+				<div class="team2" >
+					<img src="images/img8.png">
+					<h4>Dr.Smriti Mandhana  </h4>
+					<h6>Eye -Specialist</h6>
+					<h5>(4.9)</h5>
+				</div>			 
+			</div>
+			<div class="col-md-3">
+				<div class="team2" >
+					<img src="images/img7.png">
+					<h4>Dr.Sam Curran</h4>
+					<h6>Dentist</h6>
+					<h5>(4.6)</h5>
+				</div>			 
+			</div>
+			<div class="col-md-3">
+				<div class="team2" >
+					<img src="images/img6.png">
+					<h4>Dr.Sarah Smith</h4>
+					<h6>Gynecologist</h6>
+					<h5>(4.7)</h5>
+				</div>			 
+			</div>	 
+			<div class="col-md-3">
+				<div class="team2" >
+					<img src="images/img5.png">
+					<h4>Dr.Steve Smith</h4>
+					<h6>Cardiologist  </h6>
+					<h5>(4.8)</h5>
+				</div>			 
+			</div>		 
+			</div>
+		</div>
+		<div class="team3">
+					<button type="button" id="btnback5" onclick="back5()" class="btn btn-primary">Back</button>
+		</div>
+	</div>
+</section>
+
+<section id="blog">
+	<div class="container">
+		<div class="blog2">
+			<i>TESTIMONIALS</i>
+			<h2>Hear From Our<br> Satisfied Patients</h2>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="blog1">
+					<span><i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star" aria-hidden="true"></i>
+					</span>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.</p>
+					<img src="images/img5.png" >
+					<h4><b>David Warner</b><br><i>Cardiology Pateint</i></h4>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="blog1">
+					<span><i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star" aria-hidden="true"></i>
+					</span>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.</p>
+					<img src="images/img7.png" >
+					<h4><b>Aaron Finch</b><br><i>Cardiology Pateint</i></h4>					
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="blog1">
+					<span><i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star" aria-hidden="true"></i>
+					</span>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.</p>
+					<img src="images/img6.png" >
+					<h4><b>Steven Smith</b><br><i>Cardiology Pateint</i></h4>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+<section id="contact">
+	<div class="container">
+		<h2>DOCTOR APPOINTMENT FORM</h2>
+		<div class="row">
+			<div class="col-md-12">
+					<form id="form">
+						<div class="contact1">	 
+							<label>Name *</label><br>
+							<input type="text" name="text" placeholder="Name" id="name" required="" ><br><br>
+							<label>Email *</label><br>
+							<input type="email" name="email" placeholder="Email" id="email" required=""><br><br>
+							<label>Phone Number *</label><br>
+							<input type="number" name="number" placeholder="Phone Number" min="0" max="10" id="number" required=""><br><br>
+							<label>Best Time To Call You*</label><br>
+							<input type="radio" name="time" id="radio">Morning<br>
+							<input type="radio" name="time" id="radio2">Afternoon<br>
+							<input type="radio" name="time" id="radio3">Evening<br>
+
+						</div>
+						<div class="contact1-1">
+								<label>Address *</label><br>
+								<input type="text" name="text" placeholder="Address" id="address" required=""><br><br>
+								<input type="text" name="text" placeholder="Line 2" id="address"><br><br>
+								<input type="text" name="text" placeholder="City" id="city" required=""><br><br>
+								<input type="number" name="number" placeholder="Pin Code" min="0" max="6" id="code" required=""><br><br>
+								<label>I Would Like To (Choose One)*</label><br>
+							<input type="radio" name="p" id="radio1">A New Patient Appointment<br>
+							<input type="radio" name="p" id="radio1">A Routine Checkup<br>
+							<input type="radio" name="p" id="radio1">A Comprehensive Health Exam<br><br>
+							<button  type="submit" class="btn btn-primary">Submit</button>
+							 
+						</div>
+					</form>
+					 
+			</div>	 
+		</div>
+	</div>
+</section>
+<section id="contact2">		
+		<div class="container">
+			<div class="row">
+			<div class="col-md-4">
+				<div class="contact2">
+					<h2>22+</h2>
+					<h4>Health Section</h4>
+					<p>We have to continually be jumping off cliffs and
+							developing our wings on the way down.</p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="contact3">
+					<h2>145+</h2>
+					<h4>Health Section</h4>
+					<p>We have to continually be jumping off cliffs and
+							developing our wings on the way down.</p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="contact2">
+					<h2>2500+</h2>
+					<h4>Health Section</h4>
+					<p>We have to continually be jumping off cliffs and
+							developing our wings on the way down.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="footer1">
+					<img src="images/img9.png">
+					<p>Build a better website for your medical and healthcare today.</p>
+					<span><i class="fa fa-facebook" aria-hidden="true" id="fa-facebook"></i>
+          <i class="fa fa-instagram" aria-hidden="true" id="fa-instagram"></i>
+          <i class="fa fa-twitter" aria-hidden="true" id="fa-twitter"></i>
+          <i class="fa fa-youtube-play" aria-hidden="true" id="fa-youtube"></i></span>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="footer1">
+					<h2>PRODUCT</h2>
+					<a href="#">Home</a>
+					<a href="#">Company</a>
+					<a href="#">Service</a>
+					<a href="#">Blog</a>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="footer1">
+					<h2>RESOURCES</h2>
+					<a href="#">HoService Page</a>
+					<a href="#">Blog Post</a>
+					<a href="#">404</a>
+					<a href="#">Password</a>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="footer1">
+					<h2>COMPANY</h2>
+					<a href="#">Contact</a>
+					<a href="#">Style Guide</a>
+					<a href="#">More Templates</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+ <script src="https://unpkg.com/scrollreveal"></script>
+
+<script type="text/javascript" src="javascript/index.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+

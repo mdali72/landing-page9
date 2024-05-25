@@ -1,0 +1,476 @@
+	*
+ 	{
+ 		margin: 0px;
+ 		padding: 0px;
+ 	} 	 
+ 	nav ul li a 
+ 	{
+ 		color: black;
+ 	}
+ 	nav ul li a:hover
+ 	{
+ 		color: blue;
+ 		font-weight: 900;
+ 	}
+ 	img:hover
+ 	{
+ 		transform: scale(0.9);
+ 		transition: all 1s;
+ 	}
+ 	#banner h1 
+ 	{
+ 		font-size: 50px;
+ 	}
+ 	#banner #btn1
+ 	{
+ 		background-color:rgba(217, 232, 255, 1) ;
+ 		border-radius: 25px;
+ 	}
+ 	#banner #btn2
+ 	{
+ 		border-radius: 25px;
+ 		margin-top: 20px;
+ 		padding: 10px 20px;
+ 	}
+ 	.banner1 i 
+ 	{
+ 		padding-right:10px;
+ 	}
+ 	.banner1 
+	{
+		height: 100%;
+		padding-top: 15%;
+		margin-bottom: 20px;
+	}
+	.banner2 
+	{
+		height: 100%;
+	}
+	.banner2 img 
+ 	{
+ 		width: 100%;
+ 		height: 100%;
+ 	}
+
+
+ 	#service
+ 	{
+ 		text-align: center;
+ 		margin: 50px;
+ 	}
+ 	#service span i
+ 	{
+ 	    background: white;
+ 		font-size: 25px;
+ 		padding:10px;
+ 		border-radius: 10px;
+ 	}
+ 	.service1
+ 	{
+ 		border-radius: 10px;
+ 	  background: white;
+ 	  box-shadow: 1px 1px 5px;
+
+ 	}
+ 	.service1:hover
+ 	{
+ 	  transition: all 1s;
+ 		scale: 1.1;
+ 		padding: 10px;
+ 	}
+  
+ 	#service h4 
+ 	{
+ 		margin: 10px;
+ 	}
+ 	.service1
+ 	{
+ 		margin: 20px 0px;
+ 	}
+ 	.service2 i 
+ 	{
+ 		color: blue;
+ 	}
+ 	.service2 h2 
+ 	{
+ 		margin-bottom: 50px ;
+ 	}
+ 	.service1 #para,.service1 #btnback,
+ 	.service1 #para1,.service1 #btnback1,
+ 	.service1 #para2,.service1 #btnback2,
+ 	.service1 #para3,.service1 #btnback3
+ 	{
+ 		display: none;
+ 	}
+ 	.feature1 img 
+ 	{
+ 		width: 100%;
+ 	}
+ 	.feature2
+ 	{
+ 		height: 100%;
+ 		padding-top: 15%;
+ 	}
+ 	 
+ 	.feature2 i 
+ 	{
+ 		color: blue;
+ 	}
+ 	.feature2 h2 
+	{
+		padding: 20px 0px;
+	}
+
+	#feature2
+	{
+		background: rgba(9, 29, 57, 1);
+		color: white;
+		margin: 50px 0px;
+		position: relative;
+	}
+	.feature3
+	{
+		padding: 50px 0px 20px 0px;
+	}
+	.feature3 #btnon4 
+	{
+		border-radius: 25px;
+		padding: 10px 30px;
+	}
+	.feature3 #para4,.feature3 #btnback4
+ 	{
+ 		display: none;
+ 		border-radius: 25px;
+		padding: 10px 30px;
+ 	}
+	.feature3 h2 
+	{
+		padding: 20px 0px;
+	}
+
+	.feature4 img 
+	{
+		width: 100%;
+		padding-top: 80px;
+		 
+	}
+	  
+	.team1
+	{
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	.team2
+	{
+		 margin-bottom: 50px;
+		 height: 100%;
+		 padding: 10px;
+		 box-shadow: 1px 1px 5px;
+		border-radius: 10px;
+	}
+	.team2:hover{
+		
+		transform: scale(1.1);
+		transition: all 1s;
+	}
+	.team2 img
+	{
+		width: 100%;
+	}
+	.team2 h6
+	{
+		float: left ;
+	}
+	.team2 h5
+	{
+		float: right;
+		color: gray;
+	}
+	  #team1 #btnback5 ,#team #btnon5
+ 	{
+ 		border-radius: 25px;
+		padding: 10px 30px;
+		border: solid;
+		margin: 50px 0px;
+ 	}
+ 	#team1
+ 	{
+ 		margin: 50px 0px;
+ 	}
+ 	#team1
+ 	{
+ 		display: none;
+ 	}
+ 	#blog
+ 	{
+ 		background: rgba(9, 29, 57, 1);
+ 		padding: 50px 0px;
+ 	}
+ 	.blog1
+ 	{
+ 		width: 100%;
+ 		height: 100%;
+ 		border: solid;
+ 		background-color: white;
+ 		padding: 20px ;
+ 		border-radius: 20px;
+ 		border: solid;
+ 	}
+ 	.blog1:hover  
+ 	{
+ 		transform: scale(1.1);
+ 		transition: all 1s;
+ 		box-shadow: 1px 1px 5px white;
+ 	}
+
+ 	.blog2
+ 	{
+ 		color: white;
+ 		line-height: 40px;
+ 		padding-bottom: 50px  ;
+ 	}
+ 	.blog1 img 
+ 	{
+ 		width: 25%;
+ 		height: 25%;
+ 		border-radius: 50%;
+ 		float: left;
+ 	}
+ 	.blog1 h4
+ 	{
+ 		float: left;
+ 		margin-left: 10px;
+ 	}
+ 	.blog1 h4 i 
+ 	{
+ 		font-size: 14px;
+ 	}
+ 	.blog1 p 
+ 	{
+ 		padding: 30px 0px;
+ 	}
+ 	.blog1 span i 
+ 	{
+ 		color: yellow;
+ 		padding-right: 10px;
+ 		font-size: 30px;
+ 	}
+ 	#contact
+ 	{
+		background-image: url(../images/img10.jpeg);
+ 		background-repeat: no-repeat;
+ 		background-size: 100% 100%;
+ 		color: white;
+ 		width: 100%;
+ 		height: 100%;
+ 		padding: 100px 0px;	
+
+ 	}
+ 	#contact h2
+ 	{
+ 		text-align: center;
+ 		padding-bottom: 20px  ;
+ 	}
+ 	.a
+ 	{
+ 		background-color: rgba(9, 29, 57, 1);
+ 		background-image: none	;
+
+ 	}
+ 	#form
+ 	{
+ 		background-color:rgba(0, 0, 0, 0.5);
+ 		height: 100%;
+ 		width: 100%;
+ 		padding: 20px 10px 50px 20px;
+ 		display: flex;
+ 		justify-content: space-between;
+ 	}
+ 	.contact1,.contact1-1
+ 	{
+ 		width: 50%;
+/* 		border: solid;*/
+ 	}
+ 	 input[type="text"],[type="email"],[type="number"]
+ 	{
+ 		width: 60%;
+ 		height: 40px;
+ 		padding: 10px ;
+ 		background: transparent;
+ 		border: none;
+ 		background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4));
+ 		color: white;
+ 	}
+ 	input[type="radio"]
+ 	{
+ 		padding: 5px;
+ 		margin: 10px;
+ 		background: transparent;
+ 	} 
+ 	  
+ 	 
+
+
+
+
+
+
+
+
+
+ 	.contact2
+ 	{
+ 		text-align: center;
+ 		padding: 10px;
+ 		margin: 50px 0px;
+ 	}
+ 	.contact2 h4 
+ 	{
+ 		padding: 10px 0px;
+ 		color: blue;
+ 	}
+ 	.contact3
+ 	{
+ 		border-left: 1px solid black;
+ 		border-right: 1px solid black;
+ 		text-align: center;
+ 		padding: 10px;
+ 		margin: 50px 0px;
+ 	}
+ 	.contact3 h4 
+ 	{
+ 		padding: 10px 0px;
+ 		color: blue;
+ 	}
+
+ 	#footer
+ 	{
+ 		background: rgba(9, 29, 57, 1);
+ 		color: white;
+ 		padding: 50px 0px;
+ 	}
+ 	.footer1
+ 	{
+ 		line-height: 30px;
+ 	}
+ 	.footer1 a 
+ 	{
+ 		display: flex;
+ 		color: white;
+ 		padding: 5px 0px ;
+ 		margin: 10px;
+ 	}
+ 	.footer1 img
+ 	{
+ 		width: 60%;
+ 		padding-bottom: 10px;
+ 	}
+ 	.footer1 span i 
+ 	{
+ 		padding-right: 10px;
+ 		padding-top: 10px;
+ 		font-size: 30px;
+ 	}
+ 	.footer1
+ 	{
+ 		margin-bottom: 30px;
+ 	}
+ 	#fa-facebook,#fa-instagram,#fa-twitter,#fa-youtube,#fa-music
+{
+	transition: all 1s;
+	margin-right: 10px;
+	border: solid green;
+}
+
+ 	  #fa-facebook:hover
+{
+	transform: scale(1.1);
+	background-color: #316FF6;
+	border-radius: 50%;
+	width: 50px;
+	text-align: center;
+	padding: 10px;
+
+}
+  #fa-instagram:hover
+{
+	transform: scale(1.1);
+	border-radius: 50%;
+	width: 50px;
+	text-align: center;
+	padding: 10px;
+	color: white;
+	 background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+
+}
+  #fa-twitter:hover
+{
+	transform: scale(1.1);
+	border-radius: 50%;
+	width: 50px;
+	text-align: center;
+	 background-color: #1DA1F2;
+	 padding: 10px;
+	 color: white;
+}
+ 
+  #fa-youtube:hover
+{
+	transform: scale(1.1);
+	background-color: blue;
+	border-radius: 50%;
+	width: 50px;
+	text-align: center;
+	 background-color: red;
+	 padding: 10px;
+	 color: white;
+
+}
+table
+{
+	margin-top:10vh ;
+	font-size: 20px;
+}
+#table span
+{
+	position: absolute;
+	left:18px;
+	top:10vh;
+}
+thead
+{
+	float: left;
+	padding: 20px ;
+}
+ 
+thead tr th ,tbody tr td
+{
+	padding: 20px 10px;
+	border: solid;
+
+}
+tbody
+{
+	float: right;
+	padding: 20px 20px 20px 0px ;
+	position: relative;
+}
+
+@media screen and (max-width:768px)
+{
+	table
+	{
+		width: 100%;
+		font-size:14px;
+	}
+}
+
+
+ 
+
+
+
+
+
+
+ 	 
